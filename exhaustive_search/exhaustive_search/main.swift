@@ -12,7 +12,7 @@ import Foundation
 
 func solution(_ n: Int) -> Int {
     var count = 0
-    var array = Array.init(repeating: false, count: n+1)
+    var array = Array.init(repeating: false, count: n+1) //초기화
     
     for i in 2...n {
         if array[i] == false {
