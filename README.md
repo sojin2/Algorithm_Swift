@@ -4,7 +4,7 @@
 
 스택/큐
 
-[힙(Heap)] (https://coding-sojin2.tistory.com/category/Swift/Algorithms)
+[힙(Heap)](https://coding-sojin2.tistory.com/category/Swift/Algorithms)
 
 정렬
 
