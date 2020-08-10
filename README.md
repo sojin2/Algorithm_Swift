@@ -2,9 +2,9 @@
 
 해시
 
-스택/큐
+[스택/큐](https://coding-sojin2.tistory.com/entry/%EC%8A%A4%ED%83%9D%ED%81%90?category=418517)
 
-[힙(Heap)](https://coding-sojin2.tistory.com/category/Swift/Algorithms)
+[힙(Heap)](https://coding-sojin2.tistory.com/entry/Heap-%EC%A0%95%EB%A0%AC?category=418517)
 
 정렬
 
