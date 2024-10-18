@@ -8,10 +8,11 @@ if let input = readLine(), let num = Int(input) {
             result.append("0")
         }
         if n != num {
-            result.append(" ")
+            result.append(" ")  // 마지막 숫자 뒤에는 공백을 추가하지 않음
         }
-        print(result)
-    } else {
-    print("잘못된 입력입니다. 자연수를 입력하세요.")
     }
+    
+    print(result)
+} else {
+    print("잘못된 입력입니다. 자연수를 입력하세요.")
 }
