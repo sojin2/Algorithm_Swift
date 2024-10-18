@@ -1,13 +1,17 @@
-if let input = readLine() {
-    let num = Int(input)!
+if let input = readLine(), let num = Int(input) {
     var result = ""
+    
     for n in 1...num {
         if n % 2 == 0 || n % 3 == 0 {
-            result += "1"
+            result.append("1")
         } else {
-            result += "0"
+            result.append("0")
         }
-        result += " "
+        if n != num {
+            result.append(" ")
     }
+    
     print(result)
+} else {
+    print("잘못된 입력입니다. 자연수를 입력하세요.")
 }
