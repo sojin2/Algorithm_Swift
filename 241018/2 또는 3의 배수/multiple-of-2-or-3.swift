@@ -9,9 +9,9 @@ if let input = readLine(), let num = Int(input) {
         }
         if n != num {
             result.append(" ")
-    }
-    
-    print(result)
-} else {
+        }
+        print(result)
+    } else {
     print("잘못된 입력입니다. 자연수를 입력하세요.")
+    }
 }
