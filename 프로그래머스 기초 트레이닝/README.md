@@ -147,4 +147,41 @@
 | **`dropFirst(_:)`** | 컬렉션의 앞에서부터 지정한 개수만큼의 요소를 제거 |  
 - _:에는 개수 지정하면 됨
 
-  
+<br><br>
+# ✅ 지정한 간격을 사용하여 시퀀스(수열) 생성
+1. **stride(from:to:by:) : 끝 값을 포함하지 않는 시퀀스 생성**
+   - from: 시작 값.
+   - to: 끝 값 (포함되지 않음).
+   - by: 간격(양수 또는 음수).
+   ```swift
+   // 0부터 10까지 2씩 증가하지만, 10은 포함되지 않음
+   for number in stride(from: 0, to: 10, by: 2) {
+       print(number)
+   }
+   
+   출력:
+   0
+   2
+   4
+   6
+   8
+   ```
+  <br><br>
+3. **stride(from:through:by:) : 끝 값을 포함하는 시퀀스 생성**
+   - from: 시작 값.
+   - through: 끝 값 (포함됨).
+   - by: 간격(양수 또는 음수).
+   ```swift
+    // 0부터 10까지 2씩 증가하며, 10도 포함됨
+    for number in stride(from: 0, through: 10, by: 2) {
+        print(number)
+    }
+
+    출력:
+    0
+    2
+    4
+    6
+    8
+    10
+   ```
